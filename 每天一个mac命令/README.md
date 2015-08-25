@@ -7,14 +7,120 @@
 
 ###学习计划
 1. 建立一个表格，把已经做好的代码翻译分类
-1. command 命令列出的的系统内置工具
-2. 百度百科上列出的Unix命令行程序和内建指令
-3. 其他
+2. ls /bin 列出的命令
+3. ls /usr/bin 里的命令，这个看着来
+4. man command 列出的shell内置命令（这个不同的shell不一样的）
 
+
+我要学习zsh了，吼吼吼，自己加油，坚持吧
 
 ###已经翻译的命令列表
 
 | 分类 | 命令 | 简介 | 地址 | 
 | --- | --- | --- | --- |
-| 杂项 | command | 未知，呵呵呵 | [http://www.baidu.com](http://www.baidu.com) |
+| 杂项 | 无 | 无 | 无 |
 
+###shell 内置命令列表
+
+| 分类 | 命令 | 简介 | 备注 | 
+| --- | --- | --- | --- |
+|alias | No| Yes | |
+|alloc | No | Yes | |
+|bg | No| Yes | |
+|bind | No | No | |
+|bindkey | No | Yes | |
+|break | No | Yes | |
+|breaksw | No | Yes | |
+|builtin | No | No | |
+|builtins | No | Yes | |
+|case | No | Yes | |
+|cd | No| Yes | |
+|chdir | No | Yes | |
+|command | No| No | |
+|complete | No | Yes | |
+|continue | No | Yes | |
+|default | No | Yes | |
+|dirs | No | Yes | |
+|do | No | No | |
+|done | No | No | |
+|echo | Yes | Yes | |
+|echotc | No | Yes | |
+|elif | No | No | |
+|else | No | Yes | |
+|end | No | Yes | |
+|endif | No | Yes | |
+|endsw | No | Yes | |
+|esac | No | No | |
+|eval | No | Yes | |
+|exec | No | Yes | |
+|exit | No | Yes | |
+|export | No | No | |
+|false | Yes | No | |
+|fc | No| No | |
+|fg | No| Yes | |
+|filetest | No | Yes | |
+|fi | No | No | |
+|for | No | No | |
+|foreach | No | Yes | |
+|getopts | No| No | |
+|glob | No | Yes | |
+|goto | No | Yes | |
+|hash | No | No | |
+|hashstat | No | Yes | |
+|history | No | Yes | |
+|hup | No | Yes | |
+|if | No | Yes | |
+|jobid | No | No | |
+|jobs | No| Yes | |
+|kill | Yes | Yes | |
+|limit | No | Yes | |
+|local | No | No | |
+|log | No | Yes | |
+|login | Yes | Yes | |
+|logout | No | Yes | |
+|ls-F | No | Yes | |
+|nice | Yes | Yes | |
+|nohup | Yes | Yes | |
+|notify | No | Yes | |
+|onintr | No | Yes | |
+|popd | No | Yes | |
+|printenv | Yes | Yes | |
+|pushd | No | Yes | |
+|pwd | Yes | No | |
+|read | No| No | |
+|readonly | No | No | |
+|rehash | No | Yes | |
+|repeat | No | Yes | |
+|return | No | No | |
+|sched | No | Yes | |
+|set | No | Yes | |
+|setenv | No | Yes | |
+|settc | No | Yes | |
+|setty | No | Yes | |
+|setvar | No | No | |
+|shift | No | Yes | |
+|source | No | Yes | |
+|stop | No | Yes | |
+|suspend | No | Yes | |
+|switch | No | Yes | |
+|telltc | No | Yes | |
+|test | Yes | No | |
+|then | No | No | |
+|time | Yes | Yes | |
+|times | No | No | |
+|trap | No | No | |
+|true | Yes | No | |
+|type | No | No | |
+|ulimit | No | No | |
+|umask | No| Yes | |
+|unalias | No| Yes | |
+|uncomplet| No | Yes | |
+|unhash | No | Yes | |
+|unlimit | No | Yes | |
+|unset | No | Yes | |
+|unsetenv | No | Yes | |
+|until | No | No | |
+|wait | No| Yes | |
+|where | No | Yes | |
+|which | Yes | Yes | |
+|while | No | Yes | |
